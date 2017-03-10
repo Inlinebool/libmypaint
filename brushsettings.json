@@ -91,6 +91,17 @@
             "tooltip": "The current zoom level of the canvas view.  Logarithmic: 100% is 0.  200% is .69, 25% is -1.38\nFor Radius Setting, try dragging the slider to -4.15 to create a brush that stays the same size at (almost) every zoom level."
         },  
         {
+            "displayed_name": "Barrel Rotation", 
+            "hard_maximum": 180.0, 
+            "hard_minimum": -180.0, 
+            "id": "barrel_rotation", 
+            "normal": 0.0, 
+            "soft_maximum": 180.0, 
+            "soft_minimum": -180.0, 
+            "tooltip": "Barrel rotation of Stylus. 0 when not twisted +90 when twisted clockwise 90 degrees, -90 when twisted counterclockwise."
+        }, 
+
+        {
             "displayed_name": "Custom", 
             "hard_maximum": null, 
             "hard_minimum": null, 
@@ -541,6 +552,7 @@
         "declination",
         "ascension",
         "viewzoom",
-        "viewrotation"
+        "viewrotation",
+        "barrel_rotation"
     ]
 }
